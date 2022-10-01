@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.fadein{
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 1s;
+}  
+a{
+    font-family: "Sawarabi Mincho";
+}
+nav {
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    display: inline;
+    right: 0;
+  }
+  ul {
+    overflow: hidden;
+  }
+  
+  ul li {
+    list-style: none;
+    float: left;
+  }
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: #FFF1D8;
+    transition: 0.5s;
+    font-family: "Sawarabi Mincho";
+    font-weight: normal;
+    font-size: 20pt;
+    margin: 20px;
+  }
+  
+  nav a:hover {
+    color: #60A852;
+  }
+.top{
+    font-size: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #FFF1D8;
+    -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+  letter-spacing: 30px;
+  padding-left: 17px;
+  padding-right: 880px;
+  background-color: #000;
+}  
+.bg-switcher1{
+    display: block;
+    width: 100vw;
+}
+.bg-switcher1 img{
+   opacity: 0;
+   display: block;
+}
+.bg-switcher2{
+    display: block;
+    width: 100vw;
+}
+.bg-switcher2 img{
+    opacity: 0;
+   display: block;
+}
+.bg-switcher3{
+    display: block;
+    width: 100vw;
+}
+.bg-switcher3 img{
+    opacity: 0;
+   display: block;
+}
+.bg-switcher4{
+    display: block;
+    width: 100vw;
+}
+.bg-switcher4 img{
+    opacity: 0;
+   display: block;
+}
+.wf-sawarabimincho { font-family: "Sawarabi Mincho"; }
+p,
+h1,
+h2{
+    font-family: "Sawarabi Mincho";
+}
+header img{
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100vw;
+    display: block;
+}
+.daimei{
+    position: absolute;
+}
+.toyohasi-setumei img{
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100vw;
+    display: block;
+}
+.toyohasi-syosai{
+    background-color: #FAF5EC;
+    padding: 30px;
+    position: absolute;
+    top: 125%;
+    left: 60%;
+}
+.toyohasi-syosai h2{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+.toyohasi-syosai p{
+    text-align: center;
+    font-size: 20px;
+}
+.osusume{
+    text-align: center;
+    background-color: #282D30;
+    color: #FFF1D8;
+    padding-top: 60px;
+    padding-bottom: 200px;
+}
+.osusume p{
+    font-size: 48px;
+    margin-bottom: 60px;
+}
+.osusume h2{
+    font-size: 64px;
+}
+.plan1 img{
+   
+    width: 100vw;
+    display: flex;
+}
+.plan1 h2{
+    position: absolute;
+    color: #FFF1D8;
+    font-size: 64px;
+    left: 45%;
+    top: 263%;
+}
+
+.black img{
+    width: 1440px;
+    height: 600px;
+    background-size: cover;
+    background-position: center center;
+    display: block;
+}
+.black-setumei{
+    position: absolute;
+    left: 50%;
+    top: 480%;
+    text-align: center;
+}
+.plan-setumei1{
+    text-align: center;
+    background-color: #FAF5EC;
+    opacity: 0.7;
+    padding: 50px;
+    font-size: 24px;
+    border-radius: 5px;
+    font-family: "Sawarabi Mincho";
+}
+.button{
+    margin-top: 40px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #282D30;
+    color: #FFF1D8;
+    padding: 10px 50px 10px 50px;
+    font-size: 24px;
+    border-radius: 5px;
+    transition: all  0.7s ease;
+}
+.button:hover{
+    background-color: #FFF1D8;
+    color: #282D30;
+}
+.black-setumei2{
+    display: block;
+}
+.black-setumei2 p{
+    text-align: center;
+    background-color: #FFF1D8;
+    display: inline-block;
+    font-size: 24px;
+    padding: 88px;
+    font-family: "Sawarabi Mincho";
+}
+.black-setumei2 iframe{
+    right: 0;
+    position: absolute;
+}
+.plan2 img{
+    width: 100vw;
+    display: block;
+}
+.udon-setumei{
+    position: absolute;
+    left: 50%;
+    top: 740%;
+    text-align: center;
+}
+.udon-setumei2 p{
+    text-align: center;
+    background-color: #FFF1D8;
+    display: inline-block;
+    font-size: 24px;
+    padding: 106px;
+    padding-left: 120px;
+    font-family: "Sawarabi Mincho";
+}
+.udon-setumei2 iframe{
+    right: 0;
+    position: absolute;
+}
+.plan3 img{
+    width: 100vw;
+    display: flex;
+}
+.nonhoi-setumei{
+    position: absolute;
+    left: 50%;
+    top: 990%;
+    text-align: center;
+}
+.nonhoi-setumei2 p{
+    text-align: center;
+    background-color: #FFF1D8;
+    display: inline-block;
+    font-size: 24px;
+    padding: 106px;
+    padding-left: 125px;
+}
+.nonhoi-setumei2 iframe{
+    right: 0;
+    position: absolute;
+}
+.plan4 img{
+    width: 100vw;
+    display: flex;
+}
+.tikuwa-setumei{
+    position: absolute;
+    left: 50%;
+    top: 1250%;
+    text-align: center;
+}
+.tikuwa-setumei2 p{
+    text-align: center;
+    background-color: #FFF1D8;
+    display: inline-block;
+    font-size: 24px;
+    padding: 88px;
+    padding-left: 250px;
+}
+.tikuwa-setumei2 iframe{
+    right: 0;
+    position: absolute;
+}
+.plan5 img{
+    width: 100vw;
+    display: flex;
+}
+.plan5 p{
+    position: absolute;
+    left: 35%;
+    top: 1430%;
+  color: #FFF1D8;
+  font-size: 48px;
+}
+.plan5 h2{
+    position: absolute;
+    left: 41.5%;
+    top: 1500%;
+  color: #FFF1D8;
+  font-size: 64px;
+}
+.gentei img{
+    width: 100vw;
+    display: flex; 
+}
+.tedutu-intr{
+    position: absolute;
+    text-align: center;
+    background-color: #FFF1D8;
+    display: inline-block;
+    font-size: 24px;
+    padding: 50px;
+    opacity: 0.7;
+    left: 20%;
+    top: 1550%;
+}
+.oden-intr{
+    position: absolute;
+    text-align: center;
+    background-color: #FFF1D8;
+    display: inline-block;
+    font-size: 24px;
+    padding: 50px;
+    opacity: 0.7;
+    right: 20%;
+    top: 1640%;
+}
+.int-title{
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+.int-setumei{
+    font-size: 24px;
+    text-align: center;
+}
+.owari{
+    background-color: #282D30;
+    text-align: center;
+}
+.owari h2{
+    color: #FFF1D8;
+    font-size: 64px;
+    text-align: center;
+}
+.owari p{
+    background-color: #FFF1D8;
+    display: inline-block;
+    padding: 100px 50px 100px 50px;
+    margin-top: 40px;
+    margin-bottom: 200px;
+    font-size: 32px;
+}
+footer{
+    text-align: center;
+    display: block;
+    background-color: #000;
+    color: #FFF1D8;
+}
+
