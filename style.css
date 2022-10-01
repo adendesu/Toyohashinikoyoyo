@@ -56,34 +56,42 @@ nav a {
 .bg-switcher1{
     display: block;
     width: 100vw;
+    position: relative;
 }
 .bg-switcher1 img{
    opacity: 0;
    display: block;
+   position: relative;
 }
 .bg-switcher2{
     display: block;
     width: 100vw;
+    position: relative;
 }
 .bg-switcher2 img{
     opacity: 0;
    display: block;
+   position: relative;
 }
 .bg-switcher3{
     display: block;
     width: 100vw;
+    position: relative;
 }
 .bg-switcher3 img{
     opacity: 0;
    display: block;
+   position: relative;
 }
 .bg-switcher4{
     display: block;
     width: 100vw;
+    position: relative;
 }
 .bg-switcher4 img{
     opacity: 0;
    display: block;
+   position: relative;
 }
 .wf-sawarabimincho { font-family: "Sawarabi Mincho"; }
 p,
@@ -97,6 +105,7 @@ header img{
     height: 100vh;
     width: 100vw;
     display: block;
+    position: relative;
 }
 .daimei{
     position: absolute;
@@ -107,6 +116,7 @@ header img{
     height: 100vh;
     width: 100vw;
     display: block;
+    position: relative;
 }
 .toyohasi-syosai{
     background-color: #FAF5EC;
@@ -139,9 +149,9 @@ header img{
     font-size: 64px;
 }
 .plan1 img{
-   
+    position: relative;
     width: 100vw;
-    display: flex;
+    display: block;
 }
 .plan1 h2{
     position: absolute;
@@ -157,6 +167,7 @@ header img{
     background-size: cover;
     background-position: center center;
     display: block;
+    position: relative;
 }
 .black-setumei{
     position: absolute;
@@ -206,6 +217,7 @@ header img{
 .plan2 img{
     width: 100vw;
     display: block;
+    position: relative;
 }
 .udon-setumei{
     position: absolute;
@@ -228,7 +240,8 @@ header img{
 }
 .plan3 img{
     width: 100vw;
-    display: flex;
+    display: block;
+    position: relative;
 }
 .nonhoi-setumei{
     position: absolute;
@@ -250,7 +263,8 @@ header img{
 }
 .plan4 img{
     width: 100vw;
-    display: flex;
+    display: block;
+    position: relative;
 }
 .tikuwa-setumei{
     position: absolute;
@@ -272,7 +286,9 @@ header img{
 }
 .plan5 img{
     width: 100vw;
-    display: flex;
+    display: block;
+    position: relative;
+    
 }
 .plan5 p{
     position: absolute;
@@ -290,7 +306,8 @@ header img{
 }
 .gentei img{
     width: 100vw;
-    display: flex; 
+    display: block; 
+    position: relative;
 }
 .tedutu-intr{
     position: absolute;
