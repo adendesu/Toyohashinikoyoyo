@@ -19,7 +19,6 @@ $('.bg-switcher4').bgSwitcher({
     interval: 5000,
     loop: true
 });
-
 $(window).scroll(function(){
     var targetElement = $('.fadein').offset().top;
     var scroll =$(window).scrollTop();

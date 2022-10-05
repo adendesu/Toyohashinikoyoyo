@@ -11,20 +11,19 @@ a{
     font-family: "Sawarabi Mincho";
 }
 nav {
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
     background-color: #000;
-    position: absolute;
-    top: 0;
-    display: inline;
-    right: 0;
+   
   }
-  ul {
-    overflow: hidden;
-  }
-  
-  ul li {
-    list-style: none;
-    float: left;
-  }
+
+nav ul{
+    display: flex;
+    background-color: #000;
+    margin-right: 50px;
+
+}
 
 nav a {
     display: block;
@@ -35,6 +34,7 @@ nav a {
     font-weight: normal;
     font-size: 20pt;
     margin: 20px;
+    text-decoration: none;
   }
   
   nav a:hover {
@@ -42,16 +42,12 @@ nav a {
   }
 .top{
     font-size: 20px;
-    position: absolute;
-    left: 0;
-    top: 0;
     color: #FFF1D8;
     -ms-writing-mode: tb-rl;
   writing-mode: vertical-rl;
   letter-spacing: 30px;
-  padding-left: 17px;
-  padding-right: 880px;
-  background-color: #000;
+  background-color: #282D30;
+  margin-left: 50px;
 }  
 .bg-switcher1{
     display: block;
@@ -61,7 +57,6 @@ nav a {
 .bg-switcher1 img{
    opacity: 0;
    display: block;
-   position: relative;
 }
 .bg-switcher2{
     display: block;
@@ -71,7 +66,6 @@ nav a {
 .bg-switcher2 img{
     opacity: 0;
    display: block;
-   position: relative;
 }
 .bg-switcher3{
     display: block;
@@ -81,7 +75,6 @@ nav a {
 .bg-switcher3 img{
     opacity: 0;
    display: block;
-   position: relative;
 }
 .bg-switcher4{
     display: block;
@@ -91,7 +84,6 @@ nav a {
 .bg-switcher4 img{
     opacity: 0;
    display: block;
-   position: relative;
 }
 .wf-sawarabimincho { font-family: "Sawarabi Mincho"; }
 p,
@@ -107,16 +99,12 @@ header img{
     display: block;
     position: relative;
 }
-.daimei{
-    position: absolute;
-}
 .toyohasi-setumei img{
     background-size: cover;
     background-position: center center;
     height: 100vh;
     width: 100vw;
     display: block;
-    position: relative;
 }
 .toyohasi-syosai{
     background-color: #FAF5EC;
@@ -152,13 +140,13 @@ header img{
     position: relative;
     width: 100vw;
     display: block;
+    background-color: #282D30;
 }
 .plan1 h2{
-    position: absolute;
     color: #FFF1D8;
+    background-color: #282D30;
     font-size: 64px;
-    left: 45%;
-    top: 263%;
+   text-align: center;
 }
 
 .black img{
@@ -168,11 +156,12 @@ header img{
     background-position: center center;
     display: block;
     position: relative;
+    background-color: #282D30 ;
 }
 .black-setumei{
     position: absolute;
-    left: 50%;
-    top: 480%;
+    left: 60%;
+    top: 25%;
     text-align: center;
 }
 .plan-setumei1{
@@ -221,8 +210,8 @@ header img{
 }
 .udon-setumei{
     position: absolute;
-    left: 50%;
-    top: 740%;
+    left: 60%;
+    top: 25%;
     text-align: center;
 }
 .udon-setumei2 p{
@@ -245,8 +234,8 @@ header img{
 }
 .nonhoi-setumei{
     position: absolute;
-    left: 50%;
-    top: 990%;
+    left: 60%;
+    top: 25%;
     text-align: center;
 }
 .nonhoi-setumei2 p{
@@ -268,8 +257,8 @@ header img{
 }
 .tikuwa-setumei{
     position: absolute;
-    left: 50%;
-    top: 1250%;
+    left: 60%;
+    top: 25%;
     text-align: center;
 }
 .tikuwa-setumei2 p{
@@ -284,29 +273,34 @@ header img{
     right: 0;
     position: absolute;
 }
+.plan5 {
+    position: relative;
+}
 .plan5 img{
     width: 100vw;
     display: block;
-    position: relative;
-    
 }
 .plan5 p{
     position: absolute;
     left: 35%;
-    top: 1430%;
+    top: 50%;
   color: #FFF1D8;
   font-size: 48px;
 }
 .plan5 h2{
     position: absolute;
     left: 41.5%;
-    top: 1500%;
+    top: 87%;
   color: #FFF1D8;
   font-size: 64px;
 }
 .gentei img{
     width: 100vw;
     display: block; 
+    position: relative;
+}
+
+.tedutu{
     position: relative;
 }
 .tedutu-intr{
@@ -317,8 +311,13 @@ header img{
     font-size: 24px;
     padding: 50px;
     opacity: 0.7;
-    left: 20%;
-    top: 1550%;
+    top: 30%;
+    left: 60%;
+   
+}
+
+.oden{
+    position: relative;
 }
 .oden-intr{
     position: absolute;
@@ -328,8 +327,8 @@ header img{
     font-size: 24px;
     padding: 50px;
     opacity: 0.7;
-    right: 20%;
-    top: 1640%;
+    left: 60%;
+    top: 25%;
 }
 .int-title{
     text-align: center;
@@ -363,4 +362,169 @@ footer{
     background-color: #000;
     color: #FFF1D8;
 }
+@media (max-width: 400px){
+    nav {
+        display: none;
+    }
+    header img{
+       width: 390px;
+        height: 590px;
+        object-fit: cover;
+    }
+    .toyohasi-setumei img{
+        width: 390px;
+        height: auto;
+    }
+    .toyohasi-syosai{
+        padding: 8px;
+        margin: 15px;
+        top: 100%;
+    }
+    .toyohasi-syosai h2{
+        font-size: 14px;
+    }
+    .toyohasi-syosai p{
+        font-size: 10px;
+    }
+    .osusume p{
+        font-size: 14px;
+        margin-top: 60px;
+        margin-bottom: 10px;
+    }
+    .osusume h2{
+        font-size: 16px;
+        margin-top: 15px;
+    }
+    .plan1 h2{
+        font-size: 20px;
+    }
+    .bg-switcher1 img{
+        width: 390px;
+        height: auto;
+      
+    }
+    .plan-setumei1{
+        width: 180px;
+        font-size: 5px;
+        padding: 8px;
+        margin-right: 20px;
+    }
+    .black-setumei{
+        top: 20%;
+        left: 45%;
+    }
+    .button{
+        margin-top: 1px;
+        padding: 2px 5px 2px 5px;
+        font-size: 2px;
+    }
+    .bg-switcher1{
+        width: 390px;
+        height: auto;
+    }
+    .map{
+        height: 200px;
+        width: 390px;
+    }
+    .black-setumei2 p{
+        margin-top: 200px;
+        font-size: 9px;
+        padding: 10px;
+        width: 370px;
+        text-align: center;
+    }
+    .bg-switcher2 img{
+        width: 390px;
+        height: 162px;
+    }
+    
+    .udon-setumei{
+        top: 20%;
+        left: 45%;
+    }
+    
+    .udon-setumei2 p{
+        margin-top: 200px;
+        font-size: 9px;
+        padding: 10px;
+        width: 370px;
+        text-align: center;
+    }
+    .bg-switcher3 img{
+        width: 390px;
+        height: 162px;
+    }
+    .nonhoi-setumei 
+    {
+        top: 20%;
+        left: 45%;
+    }
+    .nonhoi-setumei2 p{
+        margin-top: 200px;
+        font-size: 9px;
+        padding: 10px;
+        width: 370px;
+        text-align: center;
+    }
+    .bg-switcher4 img{
+        width: 390px;
+        height: 162px;
+    }
+    .tikuwa-setumei 
+    {
+        top: 20%;
+        left: 45%;
+    }
+    .tikuwa-setumei2 p{
+        margin-top: 200px;
+        font-size: 9px;
+        padding: 10px;
+        width: 370px;
+        text-align: center;
+    }
+    .plan5 p{
+        font-size: 13px;
+    }
+    .plan5 h2{
+        font-size: 20px;
+    }
+    .tedutu-intr{
+        padding: 0px;
+        width: 200px;
+        top: 20%;
+        left: 40%;
+        font-size: 10px;
+    }
+    .tedutu-intr p{
+        margin: 5px 8px 5px 8px;
+        font-size: 12px;
+    }
+    .oden-intr{
+        padding: 0px;
 
+        width: 240px;
+        top: 20%;
+        left: 30%;
+        font-size: 10px;
+    }
+    .oden-intr p{
+        margin: 5px 8px 5px 8px;
+        font-size: 12px;
+    }
+    .oden-intr h2{
+        font-size: 20px;
+    }
+    .owari h2{
+        font-size: 20px;
+    }
+    .owari p{
+        font-size: 12px;
+        padding: 30px 20px 30px 20px;
+        margin-bottom: 50px;
+    }
+    footer{
+        font-size: 10px;
+    }
+
+
+}
