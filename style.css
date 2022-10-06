@@ -21,12 +21,12 @@ nav {
 nav ul{
     display: flex;
     background-color: #000;
+    margin-top: 20px;
     margin-right: 50px;
 
 }
 
 nav a {
-    display: block;
     text-decoration: none;
     color: #FFF1D8;
     transition: 0.5s;
@@ -46,13 +46,14 @@ nav a {
     -ms-writing-mode: tb-rl;
   writing-mode: vertical-rl;
   letter-spacing: 30px;
-  background-color: #282D30;
+  background-color: #000;
   margin-left: 50px;
 }  
 .bg-switcher1{
     display: block;
     width: 100vw;
     position: relative;
+    background-size: cover;
 }
 .bg-switcher1 img{
    opacity: 0;
@@ -62,6 +63,7 @@ nav a {
     display: block;
     width: 100vw;
     position: relative;
+    background-size: cover;
 }
 .bg-switcher2 img{
     opacity: 0;
@@ -71,6 +73,7 @@ nav a {
     display: block;
     width: 100vw;
     position: relative;
+    background-size: cover;
 }
 .bg-switcher3 img{
     opacity: 0;
@@ -80,6 +83,7 @@ nav a {
     display: block;
     width: 100vw;
     position: relative;
+    background-size: cover;
 }
 .bg-switcher4 img{
     opacity: 0;
@@ -96,15 +100,17 @@ header img{
     background-position: center center;
     height: 100vh;
     width: 100vw;
+    object-fit: cover;
     display: block;
     position: relative;
 }
 .toyohasi-setumei img{
     background-size: cover;
     background-position: center center;
-    height: 100vh;
-    width: 100vw;
+    width: 100%;
+    height: auto;
     display: block;
+    object-fit: cover;
 }
 .toyohasi-syosai{
     background-color: #FAF5EC;
@@ -378,7 +384,7 @@ footer{
     .toyohasi-syosai{
         padding: 8px;
         margin: 15px;
-        top: 100%;
+        top: 90%;
     }
     .toyohasi-syosai h2{
         font-size: 14px;
