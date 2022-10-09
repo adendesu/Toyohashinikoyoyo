@@ -25,7 +25,10 @@ nav ul{
     margin-right: 50px;
 
 }
-
+.map{
+    float: right;
+    width: 30%;
+}
 nav a {
     text-decoration: none;
     color: #FFF1D8;
@@ -190,16 +193,22 @@ header img{
     background-color: #FFF1D8;
     color: #282D30;
 }
-.black-setumei2{
-    display: block;
+.black-setumei2,
+.udon-setumei2,
+.nonhoi-setumei2,
+.tikuwa-setumei2{
+
+text-align: center;
 }
 .black-setumei2 p{
-    text-align: center;
+    width: 70%;
+    height: 181px;
     background-color: #FFF1D8;
     display: inline-block;
     font-size: 24px;
-    padding: 88px;
+    padding: 50px 0 50px 0px;
     font-family: "Sawarabi Mincho";
+ 
 }
 .black-setumei2 iframe{
     right: 0;
@@ -215,13 +224,15 @@ header img{
     top: 25%;
     text-align: center;
 }
+
 .udon-setumei2 p{
     text-align: center;
     background-color: #FFF1D8;
     display: inline-block;
     font-size: 24px;
-    padding: 106px;
-    padding-left: 120px;
+    padding: 50px 0 50px 0px;
+    width: 70%;
+    height: 181px;
     font-family: "Sawarabi Mincho";
 }
 .udon-setumei2 iframe{
@@ -238,13 +249,15 @@ header img{
     top: 25%;
     text-align: center;
 }
+
 .nonhoi-setumei2 p{
     text-align: center;
     background-color: #FFF1D8;
     display: inline-block;
     font-size: 24px;
-    padding: 106px;
-    padding-left: 125px;
+    padding: 50px 0 50px 0px;
+    width: 70%;
+    height: 181px;
 }
 .nonhoi-setumei2 iframe{
     right: 0;
@@ -265,14 +278,16 @@ header img{
     background-color: #FFF1D8;
     display: inline-block;
     font-size: 24px;
-    padding: 88px;
-    padding-left: 250px;
+    padding: 50px 0 50px 0px;
+    width: 70%;
+    height: 181px;
 }
 .tikuwa-setumei2 iframe{
     right: 0;
 }
 .plan5 {
     position: relative;
+    text-align: center;
 }
 .plan5 img{
     width: 100vw;
@@ -280,15 +295,20 @@ header img{
 }
 .plan5 p{
     position: absolute;
-    left: 35%;
-    top: 50%;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:100%;
+
   color: #FFF1D8;
   font-size: 48px;
 }
 .plan5 h2{
     position: absolute;
-    left: 41.5%;
-    top: 87%;
+    top:90%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:100%;
   color: #FFF1D8;
   font-size: 64px;
 }
@@ -310,7 +330,7 @@ header img{
     padding: 50px;
     opacity: 0.7;
     top: 30%;
-    left: 60%;
+    right: 10%;
    
 }
 
@@ -325,7 +345,7 @@ header img{
     font-size: 24px;
     padding: 50px;
     opacity: 0.7;
-    left: 60%;
+    right: 10%;
     top: 25%;
 }
 .int-title{
@@ -360,11 +380,11 @@ footer{
     background-color: #000;
     color: #FFF1D8;
 }
-@media (max-width: 400px){
+@media (max-width: 800px){
     nav {
         display: none;
     }
-  
+
     header img{
        width: 100vw;
         height: 100vh;
@@ -415,18 +435,18 @@ footer{
        }
     .plan-setumei1{
         width: 180px;
-        font-size: 5px;
+        font-size: 9px;
         padding: 8px;
         margin-right: 20px;
     }
     .black-setumei{
-        top: 20%;
-        left: 40%;
+        top: 25%;
+        right: 10%;
     }
     .button{
         margin-top: 1px;
         padding: 2px 5px 2px 5px;
-        font-size: 2px;
+        font-size: 9px;
     }
 
     .map{
@@ -436,49 +456,53 @@ footer{
     .black-setumei2 p{
         font-size: 9px;
         padding: 5px 0 5px 0;;
-        
         width: 100vw;
+        height: auto;
         text-align: center;
-
+        
     }
     
     .udon-setumei{
-        top: 20%;
-        left: 45%;
+        top: 25%;
+        right: 10%;
     }
     
     .udon-setumei2 p{
         font-size: 9px;
-        padding: 5px 0 5px 5px;
+        padding: 5px 0 5px 0px;
         width: 100vw;
+        height: auto;
         text-align: center;
     }
 
     .nonhoi-setumei 
     {
-        top: 20%;
-        left: 45%;
+        top: 25%;
+        right: 10%;
     }
     .nonhoi-setumei2 p{
         font-size: 9px;
         padding: 5px 0 5px 0;
         width: 100vw;
+        height: auto;
         text-align: center;
     }
    
     .tikuwa-setumei 
     {
-        top: 20%;
-        left: 45%;
+        top: 25%;
+        right: 10%;
     }
     .tikuwa-setumei2 p{
         font-size: 9px;
         padding: 5px 0 5px 0;
         width: 100vw;
+        height: auto;
         text-align: center;
     }
     .plan5 p{
-        font-size: 13px;
+        font-size: 20px;
+
     }
     .plan5 h2{
         font-size: 20px;
@@ -487,7 +511,7 @@ footer{
         padding: 0px;
         width: 200px;
         top: 20%;
-        left: 40%;
+        right: 10%;
         font-size: 10px;
     }
     .tedutu-intr p{
@@ -498,7 +522,7 @@ footer{
         padding: 0px;
         width: 240px;
         top: 20%;
-        left: 30%;
+        right: 10%;
         font-size: 10px;
     }
     .oden-intr p{
@@ -521,4 +545,23 @@ footer{
     }
 
 
+}
+@media (max-width: 400px){
+    .black-setumei,
+    .nonhoi-setumei ,
+    .udon-setumei,
+    .tikuwa-setumei
+    {
+        top: 25%;
+        left:  40%;
+    }
+    .plan5 p{
+        font-size: 13px;
+      
+    }
+    .plan5 h2{
+        font-size: 20px;
+       
+    }
+    
 }
